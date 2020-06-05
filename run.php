@@ -28,7 +28,7 @@ foreach ($transactions as $transaction) {
 
     try {
         $eurAmount = CurrencyConverter::getAmountInCurrency(
-            $transaction['amount'],git
+            $transaction['amount'],
             $transaction['currency'],
             $exchangeRates
         );
